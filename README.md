@@ -8,10 +8,10 @@ El objetivo de este proyecto es desarrollar un modelo de aprendizaje profundo qu
 
 ## Estructura del Repositorio
 
-- `modelo.h5`: Modelo que se entreno y utilizo para predecir.
+- `modelo_final.h5`: Modelo que se entreno y utilizo para predecir.
 - `fetch_data_script.py`: Archivo de python en el que se realiza la descarga de los datos de la criptomoneda
-- `PredecirCripto(1).ipynb`: Jupyter Notebooks donde se realizo la lectura de los datos, el entrenamiento y la prediccion.
-- `ETH-1-Year-5min.parquet`: Archivo parquet en el que se encuentran los datos descargados.
+- `PredecirCriptoFinal.ipynb`: Jupyter Notebooks donde se realizo la lectura de los datos, el entrenamiento y la prediccion.
+- `ETH-1-Year-5min.csv`: Archivo csv en el que se encuentran los datos descargados.
 
 ## Instalación, Requisitos y Usp
 
@@ -27,7 +27,7 @@ El objetivo de este proyecto es desarrollar un modelo de aprendizaje profundo qu
    python fetch_data_script.py
    ```
    Esto te generara el archivo parquet donde estaran los datos que se utilizaran desde la fecha actual hasta un año atras con registros de cada 5 minutos.
-4. Ejecutar la libreta PredecirCripto(1).ipynb
+4. Ejecutar la libreta PredecirCriptoFinal.ipynb
 
 
 
