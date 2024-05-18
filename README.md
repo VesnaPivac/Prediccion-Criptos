@@ -10,8 +10,9 @@ El objetivo de este proyecto es desarrollar un modelo de aprendizaje profundo qu
 
 - `modelo_final.h5`: Modelo que se entreno y utilizo para predecir.
 - `fetch_data_script.py`: Archivo de python en el que se realiza la descarga de los datos de la criptomoneda
-- `PredecirCriptoFinal.ipynb`: Jupyter Notebooks donde se realizo la lectura de los datos, el entrenamiento y la prediccion.
+- `PredecirCriptoFinal.ipynb`: Jupyter Notebooks donde se realizo la lectura de los datos, el entrenamiento y la prediccion, implementando la prueba de periodisidad, implementacion de un escalador distinto para cada conjunto de datos y la aclaracion de la variable que se utiliza para entrenar y predecir (Para el entrenamiento se utilizaron los datos del 2023 utilizando de entrada cada 100 datos con un step y de prediccion la variable high del año 2024.
 - `ETH-1-Year-5min.csv`: Archivo csv en el que se encuentran los datos descargados.
+- `bkup`: Carpeta en la que se guardaron los archivos utilizados en el primer intento, antes de agregar la prueba de periodisidad y la implementacion de dos escaladores (uno para cada set: entrenamiento y prueba).
 
 ## Instalación, Requisitos y Usp
 
